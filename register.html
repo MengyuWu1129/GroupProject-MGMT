@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Register</title>
+</head>
+
+<body style="background-color: #f2f8f2; font-family: Arial; text-align: center; padding-top: 100px;">
+
+  <!--PageHeading-->
+  <h2 style="color: #3e6e3e;">Register</h2>
+
+  <!--RegistrationForm-->
+  <form action="register_process.php" method="POST">
+
+    <!--NameInput-->
+    <input type="text" name="name" placeholder="Enter your name" required
+      style="padding: 10px; margin: 10px;"><br>
+
+    <!--EmailInput-->
+    <input type="email" name="email" placeholder="Enter your email" required
+      style="padding: 10px; margin: 10px;"><br>
+
+    <!--PasswordInput-->
+    <input type="password" name="password" placeholder="Enter your password" required minlength="6"
+      style="padding: 10px; margin: 10px;"><br>
+
+    <!--Register button-->
+    <input type="submit" value="Register"
+      style="background-color: #3e6e3e; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+  </form>
+
+  <!--Link to login page-->
+  <p style="margin-top: 20px;">
+    Already have an account?
+    <a href="login.html" style="color: #3e6e3e;">Login here!</a>
+  </p>
+
+</body>
+</html>

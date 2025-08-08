@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Background Color -->
+<body style="background-color: #f0fff0;">
+
+<!-- Title -->
+<h1 style="
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Georgia', serif;
+    color: #2e8b57;
+    text-shadow: 2px 2px 4px #ccc;
+    letter-spacing: 2px;
+    padding: 20px;">
+The voice of the customer is our future
+</h1>
+
+
+
+<!-- Customer Testimonials 1 -->
+<hr style="border: none; height: 5px; background-color: #3e6e3e; border-radius: 6px; margin: 40px 0;">
+
+
+  <div>
+    <h3 style="color: #3e6e3e; margin: 0;">John Carver</h3>
+    <h4 style="color: #3e6e3e; margin: 0;">Corn Farmer</h4>
+  </div>
+  <div style="font-size: 20px; color: #f4c542;">★★★★★</div>
+</div>
+
+<img src="https://cdn2.picryl.com/photo/2010/09/27/joe-reed-checking-his-corn-crop-in-edmonson-tx-25090792506-7a63ac-1024.jpg" width="150" height="100" alt="Farmer checking corn crop">
+
+
+<p style="font-size: 16px;">
+  “For years, irrigation has been a major headache for our farm. But with Coltivare’s smart irrigation system, I can manage everything right from my phone. We save over 30% on water costs each year. Their technical support is also top-notch—<b><i><u>they truly understand what farmers need.</b></i></u>”
+</p>
+
+<!-- Customer Testimonials 2 -->
+<hr style="border: none; height: 5px; background-color: #3e6e3e; border-radius: 6px; margin: 40px 0;">
+
+
+  <div>
+    <h3 style="color: #3e6e3e; margin: 0;">Mary Gomez</h3>
+    <h4 style="color: #3e6e3e; margin: 0;">Organic Vegetable Grower</h4>
+  </div>
+  <div style="font-size: 20px; color: #f4c542;">★★★★★</div>
+</div>
+
+<img src="https://images.pexels.com/photos/7782981/pexels-photo-7782981.jpeg" width="150" height="100" alt="Organic vegetables">
+
+<p style="font-size: 16px;">
+  “As a small-scale organic grower, I’ve always been very selective about farm inputs. Coltivare’s soil analysis service is incredibly accurate and efficient—it tells me exactly what to plant and when to fertilize. My carrots have become the best-selling item at the market.<b><i><u>I no longer plant blindly.</b></i></u>”
+</p>
+
+<!-- Customer Testimonials 3 -->
+<hr style="border: none; height: 5px; background-color: #3e6e3e; border-radius: 6px; margin: 40px 0;">
+
+
+  <div>
+    <h3 style="color: #3e6e3e; margin: 0;">Mr. Liu</h3>
+    <h4 style="color: #3e6e3e; margin: 0;">Eggplant Greenhouse Grower</h4>
+  </div>
+  <div style="font-size: 20px; color: #f4c542;">★★★★★</div>
+</div>
+
+<img src="https://live.staticflickr.com/65535/47075388304_30e6794f4e_b.jpg" width="150" height="100" alt="Eggplant greenhouse">
+
+<p style="font-size: 16px;">
+  “I manage 12 greenhouses growing off-season vegetables. Coltivare’s environmental monitoring system lets me track temperature and humidity anytime without leaving the house. One time we had a power outage, and their system switched to backup batteries automatically and even sent me a text alert!<b><i><u>That’s why I trust them completely.</b></i></u>”
+</p>
+
+<hr style="border: none; height: 5px; background-color: #3e6e3e; border-radius: 6px; margin: 40px 0;">
+
+<h2 style="text-align: center; color: #2e8b57;">We are waiting for your voice!</h2>
+
+<!-- Hyper Link -->
+<p>
+  Want to learn more about agriculture technology?
+  <a href="https://ag.purdue.edu/" target="_blank">Visit Purdue Agriculture</a>
+</p>
+
+<!-- Contact me -->
+<a href="mailto:wu2422@purdue.edu"
+   style="position: fixed; bottom: 20px; right: 20px; color: blue; font-size: 12px; text-decoration: underline;">
+   Contact Me
+</a>
+
+<!-- Modifited Time -->
+<p style="text-align: center; font-size: 12px; color: gray;">
+  Last modified: <span id="lastModified"></span>
+</p>
+
+<script>
+  document.getElementById("lastModified").textContent = document.lastModified;
+</script>
+
+
+</body>
+</html>
